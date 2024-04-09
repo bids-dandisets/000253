@@ -41,8 +41,12 @@ assetsSummary:
   - OptogeneticSeries
   - ElectricalSeries
   - LFP
-citation: Bastos, Andre; Westerberg, Jake ; Maier, Alex (2024) Allen Institute Openscope
-  - Global/Local Oddball project (Version draft) [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
+citation: Bastos, Andre; Westerberg, Jake ; Maier, Alex; Peene, R. Carter; Carlson,
+  Mikayla; Cabasco, Hannah; Grasso, Conor; Johnson, Tye; Han, Warren; Nguyen, Katrina;
+  Williford, Ali; Ouellette, Ben; Lecoq, Jerome; Durand, Severine; Groblewski, A.
+  Peter; Bawany, Ahad; Kiselycznyk, Carly; Belski, Hannah; GIllis, Ryan (2024) Allen
+  Institute Openscope - Global/Local Oddball project (Version draft) [Data set]. DANDI
+  archive. https://dandiarchive.org/dandiset/000253/draft
 contributor:
 - awardNumber: 1 U24 NS 113646-02
   contactPoint: []
@@ -96,8 +100,135 @@ contributor:
   name: Vanderbilt University
   roleName: []
   schemaKey: Organization
+- email: carter.peene@alleninstitute.org
+  identifier: 0009-0000-6660-2264
+  includeInCitation: true
+  name: Peene, R. Carter
+  roleName:
+  - dcite:Validation
+  - dcite:Software
+  - dcite:DataCurator
+  schemaKey: Person
+- email: mikayla.carlson@alleninstitue.org
+  identifier: 0009-0003-7019-2781
+  includeInCitation: true
+  name: Carlson, Mikayla
+  roleName:
+  - dcite:DataCollector
+  schemaKey: Person
+- email: hannah.cabasco@alleninstitute.org
+  identifier: 0009-0001-7899-2463
+  includeInCitation: true
+  name: Cabasco, Hannah
+  roleName:
+  - dcite:DataCollector
+  schemaKey: Person
+- email: conor.grasso@alleninstitute.org
+  identifier: 0009-0003-6384-4075
+  includeInCitation: true
+  name: Grasso, Conor
+  roleName:
+  - dcite:DataCollector
+  schemaKey: Person
+- email: tye.johnson@alleninstitute.org
+  identifier: 0009-0006-7239-7571
+  includeInCitation: true
+  name: Johnson, Tye
+  roleName:
+  - dcite:DataCollector
+  schemaKey: Person
+- email: warren.han@alleninstitute.org
+  identifier: 0009-0006-0104-0380
+  includeInCitation: true
+  name: Han, Warren
+  roleName:
+  - dcite:DataCollector
+  schemaKey: Person
+- email: katrina.nguyen@alleninstitute.org
+  identifier: 0009-0009-8547-9703
+  includeInCitation: true
+  name: Nguyen, Katrina
+  roleName:
+  - dcite:DataCollector
+  schemaKey: Person
+- email: aliw@alleninstitute.org
+  identifier: 0009-0000-7282-7515
+  includeInCitation: true
+  name: Williford, Ali
+  roleName:
+  - dcite:Supervision
+  - dcite:ProjectAdministration
+  - dcite:Methodology
+  schemaKey: Person
+- email: beno@alleninstitute.org
+  includeInCitation: true
+  name: Ouellette, Ben
+  roleName:
+  - dcite:DataCollector
+  schemaKey: Person
+- email: jeromel@alleninstitute.org
+  identifier: 0000-0002-0131-0938
+  includeInCitation: true
+  name: Lecoq, Jerome
+  roleName:
+  - dcite:Supervision
+  - dcite:Software
+  - dcite:Validation
+  - dcite:ProjectAdministration
+  - dcite:FundingAcquisition
+  - dcite:ProjectLeader
+  - dcite:DataManager
+  - dcite:Methodology
+  schemaKey: Person
+- email: severined@alleninstitute.org
+  identifier: 0000-0001-7788-0200
+  includeInCitation: true
+  name: Durand, Severine
+  roleName:
+  - dcite:Supervision
+  - dcite:DataCurator
+  schemaKey: Person
+- email: peterg@alleninstitute.org
+  identifier: 0000-0002-8415-1118
+  includeInCitation: true
+  name: Groblewski, A. Peter
+  roleName:
+  - dcite:Supervision
+  - dcite:ProjectAdministration
+  schemaKey: Person
+- email: ahad.bawany@alleninstitute.org
+  identifier: 0009-0002-5495-5411
+  includeInCitation: true
+  name: Bawany, Ahad
+  roleName:
+  - dcite:Software
+  - dcite:DataCurator
+  - dcite:Validation
+  schemaKey: Person
+- email: carly.kiselycznyk@alleninstitute.org
+  identifier: 0009-0006-8410-1192
+  includeInCitation: true
+  name: Kiselycznyk, Carly
+  roleName:
+  - dcite:Supervision
+  - dcite:ProjectAdministration
+  schemaKey: Person
+- email: hannah.belski@alleninstitute.org
+  identifier: 0009-0001-5422-5964
+  includeInCitation: true
+  name: Belski, Hannah
+  roleName:
+  - dcite:DataCollector
+  schemaKey: Person
+- email: ryan.gillis@alleninstitute.org
+  identifier: 0009-0000-1879-6519
+  includeInCitation: true
+  name: GIllis, Ryan
+  roleName:
+  - dcite:DataCollector
+  schemaKey: Person
+- {}
 dateCreated: '2022-06-10T22:31:41.258881+00:00'
-datePublished: '2024-02-01T19:56:04.422050+00:00'
 description: "This dataset was collected for the Global Local Oddball project, as
   part of the Allen Institute's OpenScope project. \nThe brain rapidly adapts to unchanging
   environments and is most excited by surprising events. A leading model to explain
@@ -119,7 +250,6 @@ description: "This dataset was collected for the Global Local Oddball project, a
   multiple neuropixels across the visual cortical hierarchy, we aimed to uncover what
   information is carried by layer 2 and 3 spikes that feed forward vs. by layer 5
   and 6 spikes that feed back, using recently established analytic tools.\n"
-doi: 10.80507/dandi.123456/0.123456.1234
 ethicsApproval:
 - contactPoint:
     schemaKey: ContactPoint
@@ -141,18 +271,6 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000253/versions/draft/assets/
 name: Allen Institute Openscope - Global/Local Oddball project
 protocol: []
-publishedBy:
-  endDate: '2024-02-01T19:56:04.422050+00:00'
-  id: urn:uuid:41a9b861-4880-414a-9d3e-6305357abff5
-  name: DANDI publish
-  schemaKey: PublishActivity
-  startDate: '2024-02-01T19:56:04.422050+00:00'
-  wasAssociatedWith:
-  - id: urn:uuid:79a34c30-b817-4cd4-a058-d802a18c9b69
-    identifier: RRID:SCR_017571
-    name: DANDI API
-    schemaKey: Software
-    version: 0.1.0
 relatedResource:
 - identifier: OpenScope DataBook
   name: OpenScope DataBook
