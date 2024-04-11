@@ -44,9 +44,9 @@ assetsSummary:
 citation: Bastos, Andre; Westerberg, Jake ; Maier, Alex; Peene, R. Carter; Carlson,
   Mikayla; Cabasco, Hannah; Grasso, Conor; Johnson, Tye; Han, Warren; Nguyen, Katrina;
   Williford, Ali; Ouellette, Ben; Lecoq, Jerome; Durand, Severine; Groblewski, A.
-  Peter; Bawany, Ahad; Kiselycznyk, Carly; Belski, Hannah; GIllis, Ryan; Swapp, Jackie
-  (2024) Allen Institute Openscope - Global/Local Oddball project (Version draft)
-  [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000253/draft
+  Peter; Bawany, Ahad; Kiselycznyk, Carly; Belski, Hannah; GIllis, Ryan; Swapp, Jackie  (2024)
+  Allen Institute Openscope - Global/Local Oddball project (Version draft) [Data set].
+  DANDI archive. https://dandiarchive.org/dandiset/000253/draft
 contributor:
 - awardNumber: 1 U24 NS 113646-02
   contactPoint: []
@@ -230,10 +230,13 @@ contributor:
 - email: jackies@alleninstitute.org
   identifier: 0009-0008-4965-6242
   includeInCitation: true
-  name: Swapp, Jackie
-  roleName: []
+  name: 'Swapp, Jackie '
+  roleName:
+  - dcite:ProjectAdministration
+  - dcite:Methodology
+  - dcite:DataCollector
+  - dcite:Supervision
   schemaKey: Person
-  url: ''
 dateCreated: '2022-06-10T22:31:41.258881+00:00'
 description: "This dataset was collected for the Global Local Oddball project, as
   part of the Allen Institute's OpenScope project. \nThe brain rapidly adapts to unchanging
