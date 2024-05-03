@@ -45,9 +45,9 @@ citation: Westerberg, Jake ; Durand, Severine; Cabasco, Hannah; Belski, Hannah; 
   Henry; Bawany, Ahad; Peene, R. Carter; Han, Warren; Nguyen, Katrina; Ha, Vivian;
   Johnson, Tye; Grasso, Conor; Hardcastle, Ben; Young, Ahrial; Swapp, Jackie ; Gillis,
   Ryan; Ouellette, Ben; Caldejon, Shiella; Williford, Ali; Groblewski, A. Peter; Olsen,
-  Shawn; Kiselycznyk, Carly; Lecoq, Jerome; Maier, Alex; Bastos, Andre (2024) Allen
-  Institute Openscope - Global/Local Oddball project (Version draft) [Data set]. DANDI
-  archive. https://dandiarchive.org/dandiset/000253/draft
+  Shawn; Kiselycznyk, Carly; Maier, Alex; Bastos, Andre; Lecoq, Jerome (2024) Allen
+  Institute Openscope - Global/Local Oddball project (Version 0.240503.0114) [Data
+  set]. DANDI archive. https://doi.org/10.48324/dandi.000253/0.240503.0114
 contributor:
 - awardNumber: 1 U24 NS 113646-02
   contactPoint: []
@@ -236,21 +236,6 @@ contributor:
   - dcite:Supervision
   - dcite:ProjectAdministration
   schemaKey: Person
-- email: jeromel@alleninstitute.org
-  identifier: 0000-0002-0131-0938
-  includeInCitation: true
-  name: Lecoq, Jerome
-  roleName:
-  - dcite:Supervision
-  - dcite:Software
-  - dcite:Validation
-  - dcite:ProjectAdministration
-  - dcite:FundingAcquisition
-  - dcite:ProjectLeader
-  - dcite:DataManager
-  - dcite:Methodology
-  - dcite:ContactPerson
-  schemaKey: Person
 - affiliation: []
   email: alex.maier@vanderbilt.Edu
   identifier: 0000-0002-7250-502X
@@ -280,8 +265,23 @@ contributor:
   - dcite:Supervision
   - dcite:Researcher
   schemaKey: Person
+- email: jeromel@alleninstitute.org
+  identifier: 0000-0002-0131-0938
+  includeInCitation: true
+  name: Lecoq, Jerome
+  roleName:
+  - dcite:Supervision
+  - dcite:Software
+  - dcite:Validation
+  - dcite:ProjectAdministration
+  - dcite:FundingAcquisition
+  - dcite:ProjectLeader
+  - dcite:DataManager
+  - dcite:Methodology
+  - dcite:ContactPerson
+  schemaKey: Person
 dateCreated: '2022-06-10T22:31:41.258881+00:00'
-datePublished: '2024-05-03T01:52:37.551923+00:00'
+datePublished: '2024-05-03T01:14:04.937725+00:00'
 description: "This dataset was collected for the Global Local Oddball project, as
   part of the Allen Institute's OpenScope project. \nThe brain rapidly adapts to unchanging
   environments and is most excited by surprising events. A leading model to explain
@@ -303,13 +303,14 @@ description: "This dataset was collected for the Global Local Oddball project, a
   multiple neuropixels across the visual cortical hierarchy, we aimed to uncover what
   information is carried by layer 2 and 3 spikes that feed forward vs. by layer 5
   and 6 spikes that feed back, using recently established analytic tools.\n"
+doi: 10.48324/dandi.000253/0.240503.0114
 ethicsApproval:
 - contactPoint:
     schemaKey: ContactPoint
   identifier: ​Allen Institute Institutional Animal Care and Use Committee (IACUC),
     protocol 2117
   schemaKey: EthicsApproval
-id: DANDI:000253/draft
+id: DANDI:000253/0.240503.0114
 identifier: DANDI:000253
 keywords:
 - 'neocortex '
@@ -321,17 +322,17 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000253/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000253/0.240503.0114/assets.yaml
 name: Allen Institute Openscope - Global/Local Oddball project
 protocol: []
 publishedBy:
-  endDate: '2024-05-03T01:52:37.551923+00:00'
-  id: urn:uuid:dcd802cd-e067-42ad-9a30-22756dca102f
+  endDate: '2024-05-03T01:14:04.937725+00:00'
+  id: urn:uuid:7390f64f-d302-459c-9d9d-05126f2bc50b
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2024-05-03T01:52:37.551923+00:00'
+  startDate: '2024-05-03T01:14:04.937725+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:12c76c92-98b5-4409-82e8-70ee96f624b7
+  - id: urn:uuid:35bd5803-b984-4616-b0a7-7815a51ead32
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
@@ -356,6 +357,6 @@ repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.3
 studyTarget: []
-url: https://dandiarchive.org/dandiset/000253/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000253/0.240503.0114
+version: 0.240503.0114
 wasGeneratedBy: []
