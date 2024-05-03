@@ -9,44 +9,15 @@ access:
 acknowledgement: We thank the Allen Institute founder, Paul G. Allen, for his vision,
   encouragement, and support.
 assetsSummary:
-  approach:
-  - name: optogenetic approach
-    schemaKey: ApproachType
-  - name: electrophysiological approach
-    schemaKey: ApproachType
-  dataStandard:
-  - identifier: RRID:SCR_015242
-    name: Neurodata Without Borders (NWB)
-    schemaKey: StandardsType
-  measurementTechnique:
-  - name: analytical technique
-    schemaKey: MeasurementTechniqueType
-  - name: spike sorting technique
-    schemaKey: MeasurementTechniqueType
-  - name: multi electrode extracellular electrophysiology recording technique
-    schemaKey: MeasurementTechniqueType
-  - name: signal filtering technique
-    schemaKey: MeasurementTechniqueType
-  numberOfBytes: 640663457342
-  numberOfFiles: 98
-  numberOfSubjects: 14
+  numberOfBytes: 0
+  numberOfFiles: 0
   schemaKey: AssetsSummary
-  species:
-  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
-    name: Mus musculus - House mouse
-    schemaKey: SpeciesType
-  variableMeasured:
-  - ProcessingModule
-  - Units
-  - OptogeneticSeries
-  - ElectricalSeries
-  - LFP
-citation: Bastos, Andre; Westerberg, Jake ; Maier, Alex; Peene, R. Carter; Carlson,
-  Mikayla; Cabasco, Hannah; Grasso, Conor; Johnson, Tye; Han, Warren; Nguyen, Katrina;
-  Williford, Ali; Ouellette, Ben; Lecoq, Jerome; Durand, Severine; Groblewski, A.
-  Peter; Bawany, Ahad; Kiselycznyk, Carly; Belski, Hannah; GIllis, Ryan; Swapp, Jackie  (2024)
-  Allen Institute Openscope - Global/Local Oddball project (Version draft) [Data set].
-  DANDI archive. https://dandiarchive.org/dandiset/000253/draft
+citation: Westerberg, Jake ; Durand, Severine; Cabasco, Hannah; Belski, Hannah; Loeffler,
+  Henry; Bawany, Ahad; Peene, R. Carter; Han, Warren; Nguyen, Katrina; Ha, Vivian;
+  Johnson, Tye; Grasso, Conor; Hardcastle, Ben; Young, Ahrial; Swapp, Jackie ; Ouellette,
+  Ben; Caldejon, Shiella; Williford, Ali; Groblewski, A. Peter; Olsen, Shawn; Kiselycznyk,
+  Carly; Lecoq, Jerome; Maier, Alex; Bastos, Andre (2024) Allen Institute Openscope
+  - Global/Local Oddball project (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000253/draft
 contributor:
 - awardNumber: 1 U24 NS 113646-02
   contactPoint: []
@@ -62,15 +33,18 @@ contributor:
   name: International Human Frontier Science Program Organization
   roleName: []
   schemaKey: Organization
-- affiliation: []
-  email: andre.bastos@vanderbilt.edu
-  identifier: 0000-0003-1804-4418
-  includeInCitation: true
-  name: Bastos, Andre
-  roleName:
-  - dcite:ContactPerson
-  - dcite:ProjectMember
-  schemaKey: Person
+- contactPoint: []
+  identifier: https://ror.org/02vm5rt34
+  includeInCitation: false
+  name: Vanderbilt University
+  roleName: []
+  schemaKey: Organization
+- contactPoint: []
+  identifier: https://ror.org/05csn2x06
+  includeInCitation: false
+  name: ' Netherlands Institute for Neuroscience'
+  roleName: []
+  schemaKey: Organization
 - affiliation: []
   email: j.westerberg@nin.knaw.nl
   identifier: 0000-0001-5331-8707
@@ -80,41 +54,13 @@ contributor:
   - dcite:ProjectMember
   - dcite:ContactPerson
   schemaKey: Person
-- affiliation: []
-  email: alex.maier@vanderbilt.Edu
-  identifier: 0000-0002-7250-502X
+- email: severined@alleninstitute.org
+  identifier: 0000-0001-7788-0200
   includeInCitation: true
-  name: Maier, Alex
+  name: Durand, Severine
   roleName:
-  - dcite:ContactPerson
-  schemaKey: Person
-- contactPoint: []
-  identifier: https://ror.org/05csn2x06
-  includeInCitation: false
-  name: ' Netherlands Institute for Neuroscience'
-  roleName: []
-  schemaKey: Organization
-- contactPoint: []
-  identifier: https://ror.org/02vm5rt34
-  includeInCitation: false
-  name: Vanderbilt University
-  roleName: []
-  schemaKey: Organization
-- email: carter.peene@alleninstitute.org
-  identifier: 0009-0000-6660-2264
-  includeInCitation: true
-  name: Peene, R. Carter
-  roleName:
-  - dcite:Validation
-  - dcite:Software
+  - dcite:Supervision
   - dcite:DataCurator
-  schemaKey: Person
-- email: mikayla.carlson@alleninstitue.org
-  identifier: 0009-0003-7019-2781
-  includeInCitation: true
-  name: Carlson, Mikayla
-  roleName:
-  - dcite:DataCollector
   schemaKey: Person
 - email: hannah.cabasco@alleninstitute.org
   identifier: 0009-0001-7899-2463
@@ -123,19 +69,34 @@ contributor:
   roleName:
   - dcite:DataCollector
   schemaKey: Person
-- email: conor.grasso@alleninstitute.org
-  identifier: 0009-0003-6384-4075
+- email: hannah.belski@alleninstitute.org
+  identifier: 0009-0001-5422-5964
   includeInCitation: true
-  name: Grasso, Conor
+  name: Belski, Hannah
   roleName:
   - dcite:DataCollector
   schemaKey: Person
-- email: tye.johnson@alleninstitute.org
-  identifier: 0009-0006-7239-7571
+- identifier: 0009-0007-3935-6863
   includeInCitation: true
-  name: Johnson, Tye
+  name: Loeffler, Henry
+  schemaKey: Person
+- email: ahad.bawany@alleninstitute.org
+  identifier: 0009-0002-5495-5411
+  includeInCitation: true
+  name: Bawany, Ahad
   roleName:
-  - dcite:DataCollector
+  - dcite:Software
+  - dcite:DataCurator
+  - dcite:Validation
+  schemaKey: Person
+- email: carter.peene@alleninstitute.org
+  identifier: 0009-0000-6660-2264
+  includeInCitation: true
+  name: Peene, R. Carter
+  roleName:
+  - dcite:Validation
+  - dcite:Software
+  - dcite:DataCurator
   schemaKey: Person
 - email: warren.han@alleninstitute.org
   identifier: 0009-0006-0104-0380
@@ -151,6 +112,63 @@ contributor:
   roleName:
   - dcite:DataCollector
   schemaKey: Person
+- includeInCitation: true
+  name: Ha, Vivian
+  roleName:
+  - dcite:DataCollector
+  - dcite:DataCurator
+  schemaKey: Person
+- email: tye.johnson@alleninstitute.org
+  identifier: 0009-0006-7239-7571
+  includeInCitation: true
+  name: Johnson, Tye
+  roleName:
+  - dcite:DataCollector
+  schemaKey: Person
+- email: conor.grasso@alleninstitute.org
+  identifier: 0009-0003-6384-4075
+  includeInCitation: true
+  name: Grasso, Conor
+  roleName:
+  - dcite:DataCollector
+  schemaKey: Person
+- identifier: 0000-0002-4819-5631
+  includeInCitation: true
+  name: Hardcastle, Ben
+  roleName:
+  - dcite:DataCurator
+  - dcite:DataManager
+  - dcite:FormalAnalysis
+  schemaKey: Person
+- includeInCitation: true
+  name: Young, Ahrial
+  roleName:
+  - dcite:DataCollector
+  - dcite:DataCurator
+  schemaKey: Person
+- email: jackies@alleninstitute.org
+  identifier: 0009-0008-4965-6242
+  includeInCitation: true
+  name: 'Swapp, Jackie '
+  roleName:
+  - dcite:ProjectAdministration
+  - dcite:Methodology
+  - dcite:DataCollector
+  - dcite:Supervision
+  schemaKey: Person
+- email: beno@alleninstitute.org
+  includeInCitation: true
+  name: Ouellette, Ben
+  roleName:
+  - dcite:DataCollector
+  schemaKey: Person
+- includeInCitation: true
+  name: Caldejon, Shiella
+  roleName:
+  - dcite:DataCollector
+  - dcite:DataCurator
+  - dcite:Supervision
+  schemaKey: Person
 - email: aliw@alleninstitute.org
   identifier: 0009-0000-7282-7515
   includeInCitation: true
@@ -160,11 +178,29 @@ contributor:
   - dcite:ProjectAdministration
   - dcite:Methodology
   schemaKey: Person
-- email: beno@alleninstitute.org
+- email: peterg@alleninstitute.org
+  identifier: 0000-0002-8415-1118
   includeInCitation: true
-  name: Ouellette, Ben
+  name: Groblewski, A. Peter
   roleName:
-  - dcite:DataCollector
+  - dcite:Supervision
+  - dcite:ProjectAdministration
+  schemaKey: Person
+- email: ''
+  identifier: 0000-0002-9568-7057
+  includeInCitation: true
+  name: Olsen, Shawn
+  roleName:
+  - dcite:Supervision
+  - dcite:ProjectAdministration
+  schemaKey: Person
+- email: carly.kiselycznyk@alleninstitute.org
+  identifier: 0009-0006-8410-1192
+  includeInCitation: true
+  name: Kiselycznyk, Carly
+  roleName:
+  - dcite:Supervision
+  - dcite:ProjectAdministration
   schemaKey: Person
 - email: jeromel@alleninstitute.org
   identifier: 0000-0002-0131-0938
@@ -179,63 +215,36 @@ contributor:
   - dcite:ProjectLeader
   - dcite:DataManager
   - dcite:Methodology
+  - dcite:ContactPerson
   schemaKey: Person
-- email: severined@alleninstitute.org
-  identifier: 0000-0001-7788-0200
+- affiliation: []
+  email: alex.maier@vanderbilt.Edu
+  identifier: 0000-0002-7250-502X
   includeInCitation: true
-  name: Durand, Severine
+  name: Maier, Alex
   roleName:
-  - dcite:Supervision
-  - dcite:DataCurator
-  schemaKey: Person
-- email: peterg@alleninstitute.org
-  identifier: 0000-0002-8415-1118
-  includeInCitation: true
-  name: Groblewski, A. Peter
-  roleName:
-  - dcite:Supervision
+  - dcite:ContactPerson
+  - dcite:Conceptualization
+  - dcite:Investigation
+  - dcite:Researcher
   - dcite:ProjectAdministration
+  - dcite:ProjectLeader
+  - dcite:Author
   schemaKey: Person
-- email: ahad.bawany@alleninstitute.org
-  identifier: 0009-0002-5495-5411
+- affiliation: []
+  email: andre.bastos@vanderbilt.edu
+  identifier: 0000-0003-1804-4418
   includeInCitation: true
-  name: Bawany, Ahad
+  name: Bastos, Andre
   roleName:
-  - dcite:Software
-  - dcite:DataCurator
-  - dcite:Validation
-  schemaKey: Person
-- email: carly.kiselycznyk@alleninstitute.org
-  identifier: 0009-0006-8410-1192
-  includeInCitation: true
-  name: Kiselycznyk, Carly
-  roleName:
+  - dcite:Author
+  - dcite:Conceptualization
+  - dcite:ContactPerson
+  - dcite:FormalAnalysis
+  - dcite:Investigation
+  - dcite:ProjectLeader
   - dcite:Supervision
-  - dcite:ProjectAdministration
-  schemaKey: Person
-- email: hannah.belski@alleninstitute.org
-  identifier: 0009-0001-5422-5964
-  includeInCitation: true
-  name: Belski, Hannah
-  roleName:
-  - dcite:DataCollector
-  schemaKey: Person
-- email: ryan.gillis@alleninstitute.org
-  identifier: 0009-0000-1879-6519
-  includeInCitation: true
-  name: GIllis, Ryan
-  roleName:
-  - dcite:DataCollector
-  schemaKey: Person
-- email: jackies@alleninstitute.org
-  identifier: 0009-0008-4965-6242
-  includeInCitation: true
-  name: 'Swapp, Jackie '
-  roleName:
-  - dcite:ProjectAdministration
-  - dcite:Methodology
-  - dcite:DataCollector
-  - dcite:Supervision
+  - dcite:Researcher
   schemaKey: Person
 dateCreated: '2022-06-10T22:31:41.258881+00:00'
 description: "This dataset was collected for the Global Local Oddball project, as
