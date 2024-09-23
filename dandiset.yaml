@@ -46,8 +46,8 @@ citation: Westerberg, Jake ; Durand, Severine; Cabasco, Hannah; Belski, Hannah; 
   Johnson, Tye; Grasso, Conor; Hardcastle, Ben; Young, Ahrial; Swapp, Jackie ; Gillis,
   Ryan; Ouellette, Ben; Caldejon, Shiella; Williford, Ali; Groblewski, A. Peter; Olsen,
   Shawn; Kiselycznyk, Carly; Lecoq, Jerome; Maier, Alex; Bastos, Andre (2024) Allen
-  Institute Openscope - Global/Local Oddball project (Version draft) [Data set]. DANDI
-  archive. https://dandiarchive.org/dandiset/000253/draft
+  Institute Openscope - Global/Local Oddball project (Version 0.240923.1441) [Data
+  set]. DANDI archive. https://doi.org/10.48324/dandi.000253/0.240923.1441
 contributor:
 - awardNumber: 1 U24 NS 113646-02
   contactPoint: []
@@ -303,13 +303,14 @@ description: "This dataset was collected for the Global Local Oddball project, a
   multiple neuropixels across the visual cortical hierarchy, we aimed to uncover what
   information is carried by layer 2 and 3 spikes that feed forward vs. by layer 5
   and 6 spikes that feed back, using recently established analytic tools.\n"
+doi: 10.48324/dandi.000253/0.240923.1441
 ethicsApproval:
 - contactPoint:
     schemaKey: ContactPoint
   identifier: ​Allen Institute Institutional Animal Care and Use Committee (IACUC),
     protocol 2117
   schemaKey: EthicsApproval
-id: DANDI:000253/draft
+id: DANDI:000253/0.240923.1441
 identifier: DANDI:000253
 keywords:
 - 'neocortex '
@@ -321,7 +322,7 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000253/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000253/0.240923.1441/assets.yaml
 name: Allen Institute Openscope - Global/Local Oddball project
 protocol: []
 publishedBy:
@@ -356,6 +357,6 @@ repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.3
 studyTarget: []
-url: https://dandiarchive.org/dandiset/000253/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000253/0.240923.1441
+version: 0.240923.1441
 wasGeneratedBy: []
